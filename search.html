@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="huset.css">
+    <title>Events</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <a href="about.html">About</a>
+            <a id="active">Events</a>
+        </div>
+        <a href="index.html">
+            <img class="cornerlogo" alt="huset logo" src="images/huset-logo-black.png">
+        </a>
+        <img class="zigzag" alt="ornament" src="images/ZZZ.png">
+
+    <main>
+        <h1 class="eventspage">Events</h1>
+        <form class="search" action="search.html">
+            <input name="search" type="search">
+            <input type="submit" value="search">
+        </form>
+        <nav>
+        </nav>
+        <section id="events">
+            <template class="eventsTemplate">
+                <article>
+                    <a href="subpage.html?id=51">
+                        <h1 class="eventtitle">EVENT TITLE GOES HERE</h1>
+                        <div class="container">
+                            <div class="image-overlay">
+                                <center>
+                                    <img class="eventsImgs">
+                                </center>
+                            </div>
+                            <div class="middle">
+                                <p class="shorttext">SHORT DESCRIPTION HERE</p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </template>
+        </section>
+
+    </main>
+    
+
+</body>
+
+</html>
